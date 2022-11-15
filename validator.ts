@@ -222,3 +222,5 @@ export function validatePin(control: AbstractControl) {
   }
   return null;
 }
+// REGEX for Normal Alphanumeric with few special characters
+// ^[ A-Za-z0-9&@£$.,;:\-'(){}[\]!"?/\\]*$
